@@ -1,2 +1,2 @@
-# Homework
-Homework class 1
+# Homework 1
+Code Refactor
