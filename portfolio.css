@@ -61,7 +61,13 @@ body{
         .card-img-bottom {
             width:40%;
         }
-        
+        #weather,#day{
+            border: 1px;
+            border-style: solid;
+        }
+        #in,#git{
+            width: 20%;
+        }
 
 /*Footer*/
         #block3{
@@ -75,6 +81,6 @@ body{
            border-top: teal;
            border-top-width: 10px ;
            border-style: solid;
-           top: 500%;
+
            position: absolute;
         }
