@@ -50,6 +50,9 @@ body{
         }
 
 /*Main*/
+        #card{
+            z-index: -1;
+        }
         .card-title{
             font-size: 30px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -57,21 +60,19 @@ body{
             padding-top: 3%;
             margin-left: 5%;
         }
-        .card-text {
-            color: grey;
-        }
-        p{
-            margin-top: 0px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 20px;
-        }
-        .card-body{
-            margin-bottom: 100%;
 
-        }
-        .card-img{
+        #img{
+            
             width: 30%;
             height: 30%;
+        }
+
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: grey;
+
         }
 /*Footer*/
         #block3{
@@ -85,6 +86,5 @@ body{
             border-top: teal;
             border-top-width: 10px ;
             border-style: solid;
-            top: 140%;
             position: absolute;
         }
