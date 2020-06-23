@@ -1,1 +1,0 @@
-This is the index.html, portfolio.html, and contact.html project
